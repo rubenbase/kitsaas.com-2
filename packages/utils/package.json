@@ -1,0 +1,23 @@
+{
+  "name": "@kitsaas/utils",
+  "version": "0.0.0",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src/",
+    "dev": "tsup --watch",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tailwind-merge": "^2.2.1",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "tsup": "^8.0.1"
+  }
+}

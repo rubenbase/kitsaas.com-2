@@ -1,0 +1,11 @@
+{
+  "extends": ["@kitsaas/config-ts/base.json"],
+  "references": [
+    {
+      "path": "./packages/utils",
+    },
+    {
+      "path": "./packages/ui",
+    },
+  ],
+}
