@@ -33,7 +33,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
-      <html lang="en" className="h-full bg-[#f6f8fc]" suppressHydrationWarning>
+      <html lang="en" className="bg-background h-full" suppressHydrationWarning>
         <head />
         <body className={cn("h-full font-sans antialiased", fontSans.variable)}>
           <Shell>

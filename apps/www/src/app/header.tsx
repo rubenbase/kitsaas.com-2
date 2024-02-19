@@ -17,7 +17,7 @@ export interface HeaderProps {
 
 export const Header = ({ navigation }: HeaderProps) => {
   return (
-    <header>
+    <header className="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900 mx-auto max-w-[1408px]">
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
