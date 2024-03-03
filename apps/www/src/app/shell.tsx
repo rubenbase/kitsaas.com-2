@@ -1,9 +1,9 @@
 import { Header } from "./header"
 
 const navigation = [
-  { name: "Components", href: "#" },
-  { name: "Utilities", href: "#" },
-  { name: "Templates", href: "#" },
+  { name: "Components", href: "/components" },
+  { name: "Utilities", href: "/utilities" },
+  { name: "Templates", href: "/templates" },
 ]
 
 export const Shell: React.FC<React.PropsWithChildren> = ({ children }) => {

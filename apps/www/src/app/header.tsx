@@ -17,7 +17,7 @@ export interface HeaderProps {
 
 export const Header = ({ navigation }: HeaderProps) => {
   return (
-    <header className="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900 mx-auto max-w-[1408px]">
+    <header className="relative z-50 mx-auto w-full max-w-[1408px] flex-none text-sm font-semibold leading-6 text-slate-900">
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -40,7 +40,16 @@ export const Header = ({ navigation }: HeaderProps) => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/private"
+            className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+          >
+            Dashboard
+          </a>
+          <a
+            href="/login"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
